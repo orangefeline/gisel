@@ -73,3 +73,22 @@ p{
 h3{
     font-family: 'DM Serif Display', serif;
 }
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.styled-button {
+    background-color: #25D366; /* Color verde de WhatsApp */
+    color: #ffffff;
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .styled-button:hover {
+    background-color: #128C7E; /* Cambio de color al pasar el ratón */
+  }
